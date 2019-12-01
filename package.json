@@ -1,0 +1,31 @@
+{
+  "name": "todo_final_imamhanafi",
+  "version": "1.0.0",
+  "description": "To Do Versi Imam Hanafi",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --config .prettierrc --write public/*.{html,js}",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imamhanafi1998/todo_final_imamhanafi.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "SecDet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imamhanafi1998/todo_final_imamhanafi/issues"
+  },
+  "homepage": "https://github.com/imamhanafi1998/todo_final_imamhanafi#readme",
+  "dependencies": {
+    "serve": "^11.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}

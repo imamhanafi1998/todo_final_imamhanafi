@@ -1,0 +1,68 @@
+Arguments: 
+  /home/guest/.nvm/versions/node/v12.11.0/bin/node /home/guest/.nvm/versions/node/v12.11.0/bin/yarn
+
+PATH: 
+  /home/guest/.nvm/versions/node/v12.11.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/opt/sdk/tools:/opt/sdk/tools/bin:/opt/sdk/platform-tools
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  12.11.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/guest/29DADC064E96A358/Non-Kuliah/DevCamp/todo_imam/todo_final/package.json: Unexpected token { in JSON at position 715
+      at JSON.parse (<anonymous>)
+      at /home/guest/.nvm/versions/node/v12.11.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/guest/.nvm/versions/node/v12.11.0/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /home/guest/.nvm/versions/node/v12.11.0/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "todo_final_imamhanafi",
+    "version": "1.0.0",
+    "description": "To Do Versi Imam Hanafi",
+    "main": "public/index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/imamhanafi1998/todo_final_imamhanafi.git"
+    },
+    "keywords": [
+      "node",
+      "js"
+    ],
+    "author": "SecDet",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/imamhanafi1998/todo_final_imamhanafi/issues"
+    },
+    "homepage": "https://github.com/imamhanafi1998/todo_final_imamhanafi#readme",
+    "dependencies": {
+      "serve": "^11.2.0"
+    },
+    "devDependencies": {
+      "husky": "^3.1.0",
+      "prettier": "^1.19.1"
+    },
+    {
+    "husky": {
+      "hooks": {
+        "pre-commit": "npm test",
+        "pre-push": "npm test"
+      }
+    }
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
